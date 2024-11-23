@@ -1,0 +1,35 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service.tpe.tbms.suntecgroup.com" xmlns:xsd="http://request.service.commons.tbms.suntecgroup.com/xsd" xmlns:xsd1="http://utilities.service.commons.tbms.suntecgroup.com/xsd">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:processTransaction>
+         <ser:txnSource>1000</ser:txnSource>
+         <ser:processRequests>
+            <xsd:abstractObjs>
+               <xsd1:fieldId>1000</xsd1:fieldId>
+               <xsd1:format/>
+               <xsd1:operator/>
+               <xsd1:type>1</xsd1:type>
+               <xsd1:value>UC</xsd1:value>
+            </xsd:abstractObjs>
+            <xsd:abstractObjs>
+               <xsd1:fieldId>1012</xsd1:fieldId>
+               <xsd1:format/>
+               <xsd1:operator/>
+               <xsd1:type>1</xsd1:type>
+               <xsd1:value>IPTV_PSTN_NUMBER</xsd1:value>
+            </xsd:abstractObjs>
+            <xsd:abstractObjs>
+               <xsd1:fieldId>1020</xsd1:fieldId>
+               <xsd1:format/>
+               <xsd1:operator/>
+               <xsd1:type>1</xsd1:type>
+               <xsd1:value></xsd1:value>
+            </xsd:abstractObjs>
+            <xsd:batchId/>
+            <xsd:officeId>TBMS</xsd:officeId>
+         </ser:processRequests>
+         <ser:mode>N</ser:mode>
+         <ser:OfficeCode>TBMS</ser:OfficeCode>
+      </ser:processTransaction>
+   </soapenv:Body>
+</soapenv:Envelope>

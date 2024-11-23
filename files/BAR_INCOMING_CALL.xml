@@ -1,0 +1,21 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ats="http://www.huawei.com/ATS" xmlns:xcap="http://uri.etsi.org/ngn/params/xml/simservs/xcap" xmlns:urn="urn:ietf:params:xml:ns:common-policy" xmlns:ext="http://www.huawei.com/IMS/ATS9900/extension">
+   <soapenv:Header>
+      <ats:MessageID>1</ats:MessageID>
+      <ats:MEName></ats:MEName>
+      <ats:Authentication>
+         <ats:Username>sltprovision</ats:Username>
+         <ats:Password>SoftX3000@</ats:Password>
+      </ats:Authentication>
+   </soapenv:Header>
+   <soapenv:Body>
+      <ats:MOD_MSR>
+         <ats:IMPU>+94TPNO@sltims.lk</ats:IMPU>
+         <ats:PATH>/odbservs/OwedRestriction/IncomingCallRestriction</ats:PATH>
+         <ats:SERVICEDATA>
+            <xcap:IncomingCallRestriction>
+               <xcap:ToneID>3</xcap:ToneID>
+            </xcap:IncomingCallRestriction>
+         </ats:SERVICEDATA>
+      </ats:MOD_MSR>
+   </soapenv:Body>
+</soapenv:Envelope>
